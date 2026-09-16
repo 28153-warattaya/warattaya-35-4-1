@@ -7,4 +7,11 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-age = int(input())
+age = int(input("อายุ: "))
+
+if age < 12:
+   print ("ราคา 50")
+elif age >= 60:
+   print ("เข้าฟรี")
+else:
+   print ("ราคา 100")
